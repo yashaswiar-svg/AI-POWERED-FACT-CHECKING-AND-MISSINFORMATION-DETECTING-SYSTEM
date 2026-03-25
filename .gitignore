@@ -1,0 +1,43 @@
+# Secrets
+.env
+*.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+
+# Node
+node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-error.log*
+
+# Data & indexes
+data/
+*.faiss
+*.index
+faiss_index/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
